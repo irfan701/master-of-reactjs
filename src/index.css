@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.topBanner{
+    background-image: url('./assets/images/banner.jpg');
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+
+}
+
+
+.topBannerOverlay{
+    position: absolute;
+    min-height: 400px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+.navTitle{
+    font-family: 'Monserreat',sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navTitleScroll{
+    font-family: 'Monserreat',sans-serif;
+    color: #0073E6;
+    font-weight: 700;
+    font-size: 18px;
+}
+.navBackground{
+    @apply bg-transparent transition duration-300 ease-linear
+
+}
+.navBackgroundScroll{
+    @apply bg-white transition duration-300 ease-linear
+}
+
+.navItem{
+    @apply text-xs text-white hover:text-[#4C9DED] duration-500 font-raleway
+}
+.navItemScroll{
+    @apply text-xs text-black hover:text-[#4C9DED] duration-500 font-raleway
+}
