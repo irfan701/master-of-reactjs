@@ -4,7 +4,7 @@ const Services = () => {
         <>
             <div className="container mx-auto mt-[50px]">
 
-                <h2 className='text-center font-semibold text-xl text-[#4C9DED] py-10 font-sans'>My Services</h2>
+                <h2 className='title'>My Services</h2>
                 <div className="grid grid-cols-3 gap-3">
 
 <div className='shadow-xl p-6 hover:bg-emerald-500 hover:text-white  duration-500 ease-out text-justify rounded-xl w-25'>

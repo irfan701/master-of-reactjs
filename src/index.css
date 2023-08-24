@@ -49,3 +49,13 @@
 .navItemScroll{
     @apply text-xs text-black hover:text-[#4C9DED] duration-500 font-raleway
 }
+
+.card{
+    @apply w-96 h-60 bg-white
+}
+.title{
+    @apply text-center font-raleway font-semibold text-xl text-[#4C9DED] py-10 uppercase
+}
+.des{
+    @apply font-raleway font-normal text-[14px] text-[#000000] justify-center
+}
