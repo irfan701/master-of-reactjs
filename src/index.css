@@ -37,12 +37,10 @@
 }
 .navBackground{
     @apply bg-transparent transition duration-300 ease-linear
-
 }
 .navBackgroundScroll{
     @apply bg-white transition duration-300 ease-linear
 }
-
 .navItem{
     @apply text-xs text-white hover:text-[#4C9DED] duration-500 font-raleway
 }
@@ -50,12 +48,36 @@
     @apply text-xs text-black hover:text-[#4C9DED] duration-500 font-raleway
 }
 
-.card{
-    @apply w-96 h-60 bg-white
-}
 .title{
     @apply text-center font-raleway font-semibold text-xl text-[#4C9DED] py-10 uppercase
 }
 .des{
     @apply font-raleway font-normal text-[14px] text-[#000000] justify-center
+}
+
+.summaryBanner{
+    @apply bg-[url('./assets/images/banner.jpg')] min-h-[350px] bg-no-repeat bg-center bg-cover bg-fixed
+}
+.summaryBannerOverlay{
+    @apply absolute min-h-[350px] w-full bg-black bg-opacity-70
+    /*background: rgba(0,0,0,0.7);*/
+}
+.countNumber{
+ @apply  font-raleway text-5xl font-semibold mb-2
+}
+.countTitle{
+    @apply font-raleway text-xl font-semibold mb-3
+}
+
+.card{
+    @apply bg-white  rounded-md shadow-xl w-[16rem] p-10
+}
+.cardTitle{
+    @apply font-raleway text-xl font-semibold text-black mb-2
+}
+.cardSubTitle{
+    @apply font-raleway text-xs font-normal text-black mb-2
+}
+.iconBullet{
+    @apply text-[#0073E6] text-xs inline
 }

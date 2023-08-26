@@ -52,11 +52,9 @@ const TopNavbar = () => {
                             <img width="25" src={navBarLogo} className='mr-2'/>
                             <p className={navBarTitle}><span className=''>Hayyat Mart</span></p>
                         </div>
-
                         <div onClick={()=>setOpen(!open)} className='text-2xl absolute right-7 top-4 cursor-pointer md:hidden'>
                             {open?<AiOutlineClose/>:<AiOutlineMenu/>}
                         </div>
-
                         <ul className={`${open?'top-[55px]':'top-[-490px]'} md:flex md:item-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in`}>
                             {Links.map((link, i) => {
                                 return <li key={i.toString()} className='md:ml-8 md:my-0 my-7'>
@@ -64,15 +62,10 @@ const TopNavbar = () => {
                                 </li>
                             })}
                         </ul>
-
                     </div>
                 </div>
-
             </div>
-
-
         </>
     );
 };
-
 export default TopNavbar;
