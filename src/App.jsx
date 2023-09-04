@@ -4,6 +4,9 @@ import Services from "./components/Services.jsx";
 import TopBanner from "./components/TopBanner.jsx";
 import Analysis from "./components/Analysis.jsx";
 import Summary from "./components/Summary.jsx";
+import Projects from "./components/Projects.jsx";
+import Courses from "./components/Courses.jsx";
+import Video from "./components/Video.jsx";
 
 const App = () => {
   return (
@@ -13,6 +16,9 @@ const App = () => {
         <Services/>
         <Analysis/>
         <Summary/>
+        <Projects/>
+        <Courses/>
+        <Video/>
     </div>
   );
 };

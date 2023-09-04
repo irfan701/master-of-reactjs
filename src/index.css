@@ -70,7 +70,7 @@
 }
 
 .card{
-    @apply bg-white  rounded-md shadow-xl w-[16rem] p-10
+    @apply bg-white rounded-md shadow-xl w-[16rem] p-10
 }
 .cardTitle{
     @apply font-raleway text-xl font-semibold text-black mb-2
@@ -80,4 +80,21 @@
 }
 .iconBullet{
     @apply text-[#0073E6] text-xs inline
+}
+.btn {
+    @apply inline-block rounded-full bg-emerald-500 px-6 pb-1 py-0.5 text-xs text-white shadow-[0_4px_9px_-4px_#14a44d]
+
+}
+
+.videoCard{
+    @apply pt-6 pr-3 pb-6 pl-6 bg-[#ffffff] m-[50px] shadow-xl
+}
+.playBtn{
+    @apply text-[#0073E6] text-5xl inline cursor-pointer
+}
+.videoTitle{
+    @apply text-[#0073E6] font-raleway text-[22px] font-semibold
+}
+.videoDes{
+    @apply font-raleway text-[16px] font-normal
 }
