@@ -9,7 +9,7 @@ const Video = () => {
                 <div className="flex flex-col videoCard text-center items-center">
                     <p className='videoTitle'>How I Do</p>
                     <p className='videoDes'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, harum.</p>
-                    <Modal btnName=<FaPlayCircle className='playBtn'/> />
+                    <Modal btnName={<FaPlayCircle className='playBtn'/>} />
                 </div>
             </div>
 
