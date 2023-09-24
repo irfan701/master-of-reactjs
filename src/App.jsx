@@ -7,7 +7,9 @@ import Summary from "./components/Summary.jsx";
 import Projects from "./components/Projects.jsx";
 import Courses from "./components/Courses.jsx";
 import Video from "./components/Video.jsx";
-import Btn from "./components/Btn.jsx";
+import ClientReview from "./components/ClientReview.jsx";
+import Footer from "./components/Footer.jsx";
+
 
 const App = () => {
   return (
@@ -20,7 +22,8 @@ const App = () => {
         <Projects/>
         <Courses/>
         <Video/>
-        <Btn/>
+      <ClientReview/>
+        <Footer/>
     </div>
   );
 };

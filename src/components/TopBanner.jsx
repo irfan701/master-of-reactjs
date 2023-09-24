@@ -5,10 +5,10 @@ const TopBanner = () => {
             <div className=''>
                 <div className="bg-fixed topBanner">
                     <div className='topBannerOverlay'>
-                        <div className='mt-52 text-white flex flex-col gap-3 justify-center items-center'>
-                            <h1 className=''>Software Engineer </h1>
-                            <p>Mobile & Web Develop</p>
-                            <button className="bg-emerald-500">More Info</button>
+                        <div className='mt-40 flex flex-col text-center items-center'>
+                            <h1 className='top-title'>Software Engineer </h1>
+                            <p className='top-subtitle'>Mobile & Web Develop</p>
+                            <button className="bg-emerald-500 btn">More Info</button>
                         </div>
 
 
