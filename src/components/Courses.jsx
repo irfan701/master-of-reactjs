@@ -1,50 +1,44 @@
 const Courses = () => {
     return (
         <>
-            <div className="container mx-auto">
-                <h2 className='title'>Courses</h2>
-                <div className="grid grid-cols-2 gap-4">
-                    <div className="flex flex-row max-w-sm rounded shadow-lg">
-                        <div className='flex-1 w-30 h-full'>
-                            <img className="h-full" src="https://v1.tailwindcss.com/img/card-top.jpg"
-                                 alt="Sunset in the mountains"/>
+            <div className='container text-center mx-auto'>
+
+                <div className='grid grid-cols-3 gap-4'>
+
+                    <div className="flex sm:flex-row flex-col shadow-xl">
+                        <div className='basis-[45%]  my-auto px-1.5 img-fluid'>
+                            <img src="https://www.w3schools.com/w3images/avatar2.png" alt="" className='w-full'/>
                         </div>
-                        <div className='flex-1 w-50'>
-                            <div className="px-4 py-2">
-
-                                <div className="font-medium text-[14px] mb-2">Title One</div>
-                                <p className="text-gray-700 text-justify text-[12px]">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis
-                                    dolore doloremque
-                                </p>
-
+                        <div className='basis-[55%] px-5'>
+                            <div className='text-start'>
+                                <h1 className='text-2xl mb-5'>Web Development</h1>
+                                <p className='text-justify my-3'>
+                                    I build native and cross platform mobile app for your business
+                                    app for your buisness</p>
+                                <p><a href="" className='text-blue-400 p-2 inline-block'>Details</a></p>
                             </div>
-                            <a href="" className="px-6 pt-1 pb-2 text-xs">Go Details</a>
                         </div>
+
+
                     </div>
-
-
-                    <div className="flex flex-row max-w-sm rounded shadow-lg">
-                        <div className='flex-1 w-30 h-full'>
-                            <img className="h-full" src="https://v1.tailwindcss.com/img/card-top.jpg"
-                                 alt="Sunset in the mountains"/>
+                    <div className="flex sm:flex-row flex-col shadow-xl">
+                        <div className='basis-[45%]  my-auto px-1.5 img-fluid'>
+                            <img src="https://www.w3schools.com/w3images/avatar2.png" alt="" className='w-full'/>
                         </div>
-                        <div className='flex-1 w-50'>
-                            <div className="px-4 py-2">
-
-                                <div className="font-medium text-[14px] mb-2">Title One</div>
-                                <p className="text-gray-700 text-justify text-[12px]">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis
-                                    dolore doloremque
-                                </p>
-
+                        <div className='basis-[55%] px-5'>
+                            <div className='text-start'>
+                                <h1 className='text-2xl mb-5'>Web Development</h1>
+                                <p className='text-justify my-3'>
+                                    I build native and cross platform mobile app for your business
+                                    app for your buisness</p>
+                                <p><a href="" className='text-blue-400 p-2 inline-block'>Details</a></p>
                             </div>
-                            <a href="" className="px-6 pt-1 pb-2 text-xs">Go Details</a>
                         </div>
+
+
                     </div>
-
-
                 </div>
+
             </div>
         </>
     );

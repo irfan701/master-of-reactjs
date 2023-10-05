@@ -20,6 +20,7 @@ const TopNavbar = () => {
     const [navBarLogo, setNavBarLogo] = useState([logo1])
     const [navBarBg, setNavBarBg] = useState("navBackground")
     const [navBarItem, setNavBarItem] = useState("navItem")
+    //const [NavVarint, setNavVarint] = useState("navItem")
 
 
     const onScroll = () => {

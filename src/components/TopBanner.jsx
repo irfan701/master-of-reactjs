@@ -10,8 +10,6 @@ const TopBanner = () => {
                             <p className='top-subtitle'>Mobile & Web Develop</p>
                             <button className="bg-emerald-500 btn">More Info</button>
                         </div>
-
-
                     </div>
                 </div>
             </div>

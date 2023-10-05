@@ -1,29 +1,26 @@
-import React from 'react';
+
 import TopNavbar from "./components/TopNavbar.jsx";
-import Services from "./components/Services.jsx";
-import TopBanner from "./components/TopBanner.jsx";
-import Analysis from "./components/Analysis.jsx";
-import Summary from "./components/Summary.jsx";
-import Projects from "./components/Projects.jsx";
+
+import PageTop from "./components/PageTop.jsx";
+import AboutDescription from "./components/AboutDescription.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
 import Courses from "./components/Courses.jsx";
-import Video from "./components/Video.jsx";
-import ClientReview from "./components/ClientReview.jsx";
-import Footer from "./components/Footer.jsx";
+import CoursePage from "./pages/CoursePage.jsx";
+import Portfolio from "./components/Portfolio.jsx";
+import PortfolioPage from "./pages/PortfolioPage.jsx";
+import ContactSection from "./components/ContactSection.jsx";
 
 
 const App = () => {
   return (
     <div>
-        <TopBanner/>
-        <TopNavbar/>
-        <Services/>
-        <Analysis/>
-        <Summary/>
-        <Projects/>
-        <Courses/>
-        <Video/>
-      <ClientReview/>
-        <Footer/>
+    {/*<HomePage/>*/}
+    {/*   <AboutPage/>*/}
+    {/*    <Courses/>*/}
+    {/*    <CoursePage/>*/}
+    {/*    <Portfolio/>*/}
+    {/*    <PortfolioPage/>*/}
+        <ContactSection/>
     </div>
   );
 };
